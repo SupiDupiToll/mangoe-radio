@@ -1,5 +1,6 @@
 packages: []
 allowBuilds:
   esbuild: true
+  workerd: true
 minimumReleaseAgeExclude:
   - lucide-react@1.35.0

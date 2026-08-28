@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'node:url'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import { cloudflare } from '@cloudflare/vite-plugin'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
@@ -8,6 +9,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    cloudflare(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['icons/icon.svg'],
