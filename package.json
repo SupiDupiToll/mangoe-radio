@@ -32,7 +32,7 @@
     "shadcn": "^4.19.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.5.4",
-    "vite": "^5.4.3",
-    "vite-plugin-pwa": "^0.20.5"
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.0"
   }
 }
